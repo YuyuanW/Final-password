@@ -1,0 +1,5 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="title">yuyuanone占领高地</view>
+  <view class="top_tip">永远白兰</view>
+</view>
