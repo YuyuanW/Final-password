@@ -1,12 +1,9 @@
 <!-- index.wxml -->
 <view class="container">
-  <view class="title">yuyuanone占领高地</view>
-  <view class="top_tip">永远白兰</view>
-  <view>{{message}}</view>
-  <view>{{n}}</view>
-  <view>
-    <button class="btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="addOne">
-      +1
-    </button>
-  </view>
+    <view>
+        <image src="/pages/icons/icon1.jpg" alt="首页图片" />
+    </view>
+    <view bindtap="jump">
+        <button class='start'>开始游戏</button>
+    </view>
 </view>

@@ -1,0 +1,14 @@
+<view class="container">
+    <view class='circle'>
+        <view class="text">?</view>
+    </view>
+    <view class="selector">
+        <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{numberIndex}}" range="{{numberArray}}">
+            <view class="picker number">
+                <view class="number1">{{numberArray[0][numberIndex[0]]}}</view>
+                <view class="number2">{{numberArray[1][numberIndex[1]]}}</view>
+            </view>
+        </picker>
+    </view>
+    <view class="result">{{n}}</view>
+</view>

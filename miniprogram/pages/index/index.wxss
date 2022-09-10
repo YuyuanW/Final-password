@@ -1,11 +1,9 @@
-/**index.wxss**/
-
-page {
-  padding-top: 54rpx;
-  background-color: #f6f6f6;
-  padding-bottom: 60rpx;
+.container{
+    margin:40px
 }
 
-.title{
-  color:red;
+.start{
+    margin:40px;
+    border:1px solid gray;
+    background-color: darkgray;
 }
