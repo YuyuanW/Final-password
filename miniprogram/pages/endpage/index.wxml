@@ -1,0 +1,6 @@
+<view class="container">
+    <view class='button'>
+        <button bindtap="jump">再来一局！</button>
+        <button bindtap="exit">不玩了！</button>
+    </view>
+</view>

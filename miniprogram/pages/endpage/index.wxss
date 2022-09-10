@@ -1,0 +1,14 @@
+.container{
+    /* border: 1px solid red; */
+    width:100vw;
+    height: 100vh;
+    margin-top: 40%;
+}
+
+button{
+    border: 1px solid rgb(167, 167, 173);
+    font-size: 24px;
+    white-space: nowrap;
+    background-color: rgb(214, 214, 208);
+    margin-top: 40px;
+}

@@ -1,6 +1,6 @@
 <view class="container">
     <view class='circle'>
-        <view class="text">?</view>
+        <view class="{{res === 'EQUAL' ? 'equal' : 'text'}}">?</view>
     </view>
     <view class="selector">
         <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{numberIndex}}" range="{{numberArray}}">
@@ -10,5 +10,5 @@
             </view>
         </picker>
     </view>
-    <view class="result">{{n}}</view>
+    <view class="result">{{n}} is {{res}}</view>
 </view>
